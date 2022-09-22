@@ -1,0 +1,22 @@
+input type="radio" 하나만 체크됨. input에 id 값을 주고
+input 은 label 과 연동되서 사용 가능. 라벨에 for="id"를 주면 라벨을 클릭했을때 input 이 체크됨.
+
+
+[스크린은 ul, li 이용해서 ]
+ul -> white-space :nowrap 을 이용ㅇ해서
+	자식 요소의 줄바꿈을 없애서 한줄로 길게 늘어놓을거임.
+	width:100%해서 버튼에 하나씩 보이게 할거고
+	overflow:hidden 속성을 통해 하나의 그림만 보이게 함.
+ 
+keyframe -> 시간대 별로 진행하는 애니메이션을 만듬.
+		
+ 	translateX(); -> 라벨 클릭했을때 화면전환되는 효과 
+	자신을 기준으로 x  좌표를 통해 움직이는것.
+	1번째 화면 : translateX(0) -> 변화가 없는것.
+	2번째 화면 : translateX(-100%) ->한개의 넓이를 당기는것이기에 
+	3번째 화면 : translateX(-200%)
+	3번째 화면 : translateX(-300%)
+	
+	left 속성 -> 포지션 속성이 작동되는 방향 -> keyframes 으로 진행도에 따라 화면전환 되도록 애니메이션을 위해 사용
+
+이미지 -> 가로, 세로 같은걸 쓰느게 좋음.
